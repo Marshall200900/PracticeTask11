@@ -12,7 +12,10 @@ namespace task11
         
         static void Main(string[] args)
         {
-            Console.Write("Введите текст: ");
+            Console.WriteLine("Задача №11 (835)\n" +
+                "Зашифровать и расшифровать текст, сдвинув каждую букву на N позиций, \n" +
+                "причем буква я заменяется на букву а.");
+            Console.Write("Введите текст: \n");
             string text = Console.ReadLine();
             int n = Inputs.Int("Введите количество сдвигов: ", 0);
             string encoded = Encrypter.Encrypt(text, n);

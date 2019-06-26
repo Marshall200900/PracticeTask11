@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace task11
 {
-    static class Encrypter
+    public static class Encrypter
     {
         private const string alphabet = "абвгдеёжзийклмнопрстуфхцчшщъыьэюяАБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
         public static string Encrypt(string str, int n)
